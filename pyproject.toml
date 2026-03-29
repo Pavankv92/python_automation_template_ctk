@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python_automation_template"
+name = "python_automation_template_ctk"
 version = "0.0.0"
 description = "A template project for Python automation GUI"
 authors = ["Your Name <you@example.com>"]
@@ -13,7 +13,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.setuptools_scm]
-write_to = "python_automation_template/_version.py"
+write_to = "python_automation_template_ctk/_version.py"
 
 [tool.mypy]
 ignore_missing_imports = true
@@ -26,7 +26,7 @@ warn_unused_configs = true
 [tool.mypy.serial]
 ignore_missing_imports = true
 
-[tool.mypy."python_automation_template.*"]
+[tool.mypy."python_automation_template_ctk.*"]
 ignore_missing_imports = false
 
 [tool.black]
